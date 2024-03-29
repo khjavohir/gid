@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700&family=Open+Sans&family=Poppins:wght@100;200;400;500;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <title>AdabiyGid</title>
+</head>
+
+<body>
+
+    <nav class="pt-4 pb-3">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a href="./index.html"><img width="200" src="./img/Logo.png"></a>
+            <ul class="d-none d-md-flex pt-2 align-items-center">
+                <a href="./index.html" class="link-light">
+                    <li><b>Bosh sahifa</b></li>
+                </a>
+                <a href="./yangiliklar.html" class="link-light">
+                    <li class="mx-5">Yangiliklar</li>
+                </a>
+                <li class="dropdown">
+                    <a class="link-light" href="#">Adiblar</a>
+                    <ul class="dropdown-content">
+
+                        <a href="./index.html" class="link-light">
+                            <li> Alisher Navoi</li>
+                        </a>
+                        <a href="./Oybek.html" class="link-light">
+                            <li>Oybek</li>
+                        </a>
+                        <a href="./Abdulla.html" class="link-light">
+                            <li>Abdulla Qahhor</li>
+                        </a>
+                        <a href="./Sergey.html" class="link-light">
+                            <li>Sergey Borodin</li>
+                        </a>
+                        <a href="./Qodiriy.html" class="link-light">
+                            <li>Abdulla Qodiriy</li>
+                        </a>
+                        <a href="./Sadriddin.html" class="link-light">
+                            <li>Sadriddin Ayniy</li>
+                        </a>
+                    </ul>
+                </li>
+
+                <div></div>
+                <a href="#vr" class="link-light">
+                    <li class="mx-5">VR tur</li>
+                </a>
+                <a href="#aloqa" class="link-light">
+                    <li>Aloqa</li>
+                </a>
+
+                <li class="dropdown-lang ms-5 golden-color">
+                    <a class="link-light" href="#">UZ</a>
+                    <ul class="dropdown-content-lang">
+
+                        <a href="./index.html" class="link-light">
+                            <li>Rus</li>
+                        </a>
+                        <a href="./Oybek.html" class="link-light">
+                            <li>Eng</li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false"
+            data-bs-interval="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                    class="active carousel-indicators-icon" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    class="carousel-indicators-icon" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    class="carousel-indicators-icon " aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    class="carousel-indicators-icon " aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    class="carousel-indicators-icon " aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                    class="carousel-indicators-icon " aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item ">
+                    <header>
+                        <img width="620" src="./img/title1.png" class="header-title1  position-absolute" />
+                        <img width="" src="./img/title2.png" class="header-title2  position-absolute" />
+                        <img style="top: -150px; left: -100px;" width="1500" class="position-absolute"
+                            src="./img/bg.png" alt="">
+                        <img class="position-absolute header-img" src="./img/Alisher.png" width="550" alt="" />
+                        <img class="header-bg" width="1100" src="./img/Ellipse 4 (1).png" alt="" />
+                        <p class="d-flex align-items-center fst-italic header-desc header-desc1">
+                            <i class="fa-solid fa-circle golden-color" style="font-size: 7px"></i>&nbsp; Alisher Navoi
+                        </p>
+                        <p class="d-flex align-items-center fst-italic header-desc header-desc2">
+                            <i class="fa-solid fa-circle golden-color" style="font-size: 7px"></i>
+                            &nbsp; Adabiyot muzeyi -O‘zbekistonning <br />&nbsp; eng yirik
+                            ilmiy va ta’lim <br />&nbsp; muassasalaridan biri
+                        </p>
+                        <div class="header-box">
+                            <p class="h5">
+                                O’zbekiston bo’ylab adabiy Gid <br />
+                                <span class="golden-color"> elektron platformasi </span>
+                            </p>
+                            <br />
+                            <a>
+
+                                <a href="#vr"
+                                    class="d-flex align-items-center justify-content-center header-link link-light">
+
+                                    <p class="h5 m-0 me-2">Batafsil malumot</p>
+                                </a>
+                        </div>
+
+                        <div class="position-absolute container d-flex justify-content-around header-items p-1">
+                            <div class="d-flex align-items-center justify-content-center header-items-item">
+                                <div>
+                                    <i class="fa-solid fa-location-dot fa-2xl"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Bizning manzil</p>
+                                    <p class="m-0" style="font-size: 12px">
+                                        69 Navoiy shoh ko'chasi, Тоshkent 100011
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center justify-content-center header-items-item">
+                                <div>
+                                    <i class="fa-solid fa-phone-volume fa-2xl"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Biz bilan aloqa</p>
+                                    <p class="m-0" style="font-size: 12px">+998 71 241 02 75</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center justify-content-center header-items-item border-0">
+                                <div>
+                                    <i class="fa-solid fa-envelope" style="font-size: 40px"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Biz bilan aloqa</p>
+                                    <p class="m-0" style="font-size: 12px">+998 71 241 02 75</p>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+
+                <div class="carousel-item">
+                    <header>
+                        <img width="620" src="./img/title1.png" class="header-title1 position-absolute" />
+                        <img style="top: -150px; left: -100px;" width="1500" class="position-absolute"
+                            src="./img/bg.png" alt="">
+                        <img width="" src="./img/title2.png" class="header-title2  position-absolute" />
+                        <img class="position-absolute header-img2" src="./img/Image 18.png" width="600" alt="" />
+                        <img class="header-bg" width="1100" src="./img/Ellipse 4 (1).png" alt="" />
+                        <p class="d-flex align-items-center fst-italic header-desc header-desc1">
+                            <i class="fa-solid fa-circle golden-color" style="font-size: 7px"></i>&nbsp; Muso
+                            Toshmuhammad o’g’li <br />
+                            Oybek
+                        </p>
+                        <p class="d-flex align-items-center fst-italic header-desc header-desc3">
+                            <i class="fa-solid fa-circle golden-color" style="font-size: 7px"></i>
+                            &nbsp; Adabiyot muzeyi -O‘zbekistonning <br />&nbsp; eng yirik
+                            ilmiy va ta’lim <br />&nbsp; muassasalaridan biri
+                        </p>
+                        <div class="header-box">
+                            <p class="h5">
+                                O’zbekiston bo’ylab adabiy Gid <br />
+                                <span class="golden-color"> elektron platformasi </span>
+                            </p>
+                            <br />
+                            <a href="#vr"
+                                class="d-flex align-items-center justify-content-center header-link link-light">
+                                <p class="h5 m-0 me-2">Batafsil malumot</p>
+                            </a>
+                        </div>
+
+                        <div class="position-absolute container d-flex justify-content-around header-items p-1">
+                            <div class="d-flex align-items-center justify-content-center header-items-item">
+                                <div>
+                                    <i class="fa-solid fa-location-dot fa-2xl"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Bizning manzil</p>
+                                    <p class="m-0" style="font-size: 12px">
+                                        69 Navoiy shoh ko'chasi, Тоshkent 100011
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center justify-content-center header-items-item">
+                                <div>
+                                    <i class="fa-solid fa-phone-volume fa-2xl"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Biz bilan aloqa</p>
+                                    <p class="m-0" style="font-size: 12px">+998 71 241 02 75</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center justify-content-center header-items-item border-0">
+                                <div>
+                                    <i class="fa-solid fa-envelope" style="font-size: 40px"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Biz bilan aloqa</p>
+                                    <p class="m-0" style="font-size: 12px">+998 71 241 02 75</p>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+
+                <div class="carousel-item">
+                    <header>
+                        <img width="600" src="./img/title1.png" class="header-title1  position-absolute" />
+                        <img style="top: -150px; left: -100px;" width="1500" class="position-absolute"
+                            src="./img/bg.png" alt="">
+                        <img width="330" src="./img/title2.png" class="header-title2  position-absolute" />
+                        <img class="position-absolute header-img3" src="./img/Image 17.png" width="600" alt="" />
+                        <img class="header-bg" width="1100" src="./img/Ellipse 4 (1).png" alt="" />
+                        <p class="d-flex align-items-center fst-italic header-desc header-desc1">
+                            <i class="fa-solid fa-circle golden-color" style="font-size: 7px"></i>&nbsp; Abdulla Qahhor
+                        </p>
+                        <p class="d-flex align-items-center fst-italic header-desc header-desc2">
+                            <i class="fa-solid fa-circle golden-color" style="font-size: 7px"></i>
+                            &nbsp; Adabiyot muzeyi -O‘zbekistonning <br />&nbsp; eng yirik
+                            ilmiy va ta’lim <br />&nbsp; muassasalaridan biri
+                        </p>
+                        <div class="header-box">
+                            <p class="h5">
+                                O’zbekiston bo’ylab adabiy Gid <br />
+                                <span class="golden-color"> elektron platformasi </span>
+                            </p>
+                            <br />
+                            <a href="#vr"
+                                class="d-flex align-items-center justify-content-center header-link link-light">
+                                <p class="h5 m-0 me-2">Batafsil malumot</p>
+                            </a>
+                        </div>
+
+                        <div class="position-absolute container d-flex justify-content-around header-items p-1">
+                            <div class="d-flex align-items-center justify-content-center header-items-item">
+                                <div>
+                                    <i class="fa-solid fa-location-dot fa-2xl"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Bizning manzil</p>
+                                    <p class="m-0" style="font-size: 12px">
+                                        69 Navoiy shoh ko'chasi, Тоshkent 100011
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center justify-content-center header-items-item">
+                                <div>
+                                    <i class="fa-solid fa-phone-volume fa-2xl"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Biz bilan aloqa</p>
+                                    <p class="m-0" style="font-size: 12px">+998 71 241 02 75</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center justify-content-center header-items-item border-0">
+                                <div>
+                                    <i class="fa-solid fa-envelope" style="font-size: 40px"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Bizga xabar yuborish</p>
+                                    <p class="m-0" style="font-size: 12px">
+                                        Contact@HydraVTech.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+
+                <div class="carousel-item active">
+                    <header>
+                        <img width="600" src="./img/title1.png" class="header-title1  position-absolute" />
+                        <img style="top: -150px; left: -100px;" width="1500" class="position-absolute"
+                            src="./img/bg.png" alt="">
+                        <img width="330" src="./img/title2.png" class="header-title2  position-absolute" />
+                        <img class="position-absolute header-img4" src="./img/image 18 (1).png" width="700" alt="" />
+                        <img class="header-bg" width="1100" src="./img/Ellipse 4 (1).png" alt="" />
+                        <p class="d-flex align-items-center fst-italic header-desc header-desc1">
+                            <i class="fa-solid fa-circle golden-color" style="font-size: 7px"></i>&nbsp; Sergey Borodin
+                        </p>
+                        <p class="d-flex align-items-center fst-italic header-desc header-desc2">
+                            <i class="fa-solid fa-circle golden-color" style="font-size: 7px"></i>
+                            &nbsp; Adabiyot muzeyi -O‘zbekistonning <br />&nbsp; eng yirik
+                            ilmiy va ta’lim <br />&nbsp; muassasalaridan biri
+                        </p>
+                        <div class="header-box">
+                            <p class="h5">
+                                O’zbekiston bo’ylab adabiy Gid <br />
+                                <span class="golden-color"> elektron platformasi </span>
+                            </p>
+                            <br />
+                            <a href="#vr"
+                                class="d-flex align-items-center justify-content-center header-link link-light">
+                                <p class="h5 m-0 me-2">Batafsil malumot</p>
+                            </a>
+                        </div>
+
+                        <div class="position-absolute container d-flex justify-content-around header-items p-1">
+                            <div class="d-flex align-items-center justify-content-center header-items-item">
+                                <div>
+                                    <i class="fa-solid fa-location-dot fa-2xl"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Bizning manzil</p>
+                                    <p class="m-0" style="font-size: 12px">
+                                        69 Navoiy shoh ko'chasi, Тоshkent 100011
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center justify-content-center header-items-item">
+                                <div>
+                                    <i class="fa-solid fa-phone-volume fa-2xl"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Biz bilan aloqa</p>
+                                    <p class="m-0" style="font-size: 12px">+998 71 241 02 75</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center justify-content-center header-items-item border-0">
+                                <div>
+                                    <i class="fa-solid fa-envelope" style="font-size: 40px"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Bizga xabar yuborish</p>
+                                    <p class="m-0" style="font-size: 12px">
+                                        Contact@HydraVTech.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+
+                <div class="carousel-item">
+                    <header>
+                        <img width="600" src="./img/title1.png" class="header-title1  position-absolute" />
+                        <img style="top: -150px; left: -100px;" width="1500" class="position-absolute"
+                            src="./img/bg.png" alt="">
+                        <img width="330" src="./img/title2.png" class="header-title2  position-absolute" />
+                        <img class="position-absolute header-img5" src="./img/Image 19.png" width="650" alt="" />
+                        <img class="header-bg" width="1100" src="./img/Ellipse 4 (1).png" alt="" />
+                        <p class="d-flex align-items-center fst-italic header-desc header-desc1">
+                            <i class="fa-solid fa-circle golden-color" style="font-size: 7px"></i>&nbsp; Abdulla Qodiriy
+                        </p>
+                        <p class="d-flex align-items-center fst-italic header-desc header-desc2">
+                            <i class="fa-solid fa-circle golden-color" style="font-size: 7px"></i>
+                            &nbsp; Adabiyot muzeyi -O‘zbekistonning <br />&nbsp; eng yirik
+                            ilmiy va ta’lim <br />&nbsp; muassasalaridan biri
+                        </p>
+                        <div class="header-box">
+                            <p class="h5">
+                                O’zbekiston bo’ylab adabiy Gid <br />
+                                <span class="golden-color"> elektron platformasi </span>
+                            </p>
+                            <br />
+                            <a href="#vr"
+                                class="d-flex align-items-center justify-content-center header-link link-light">
+                                <p class="h5 m-0 me-2">Batafsil malumot</p>
+                            </a>
+                        </div>
+
+                        <div class="position-absolute container d-flex justify-content-around header-items p-1">
+                            <div class="d-flex align-items-center justify-content-center header-items-item">
+                                <div>
+                                    <i class="fa-solid fa-location-dot fa-2xl"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Bizning manzil</p>
+                                    <p class="m-0" style="font-size: 12px">
+                                        69 Navoiy shoh ko'chasi, Тоshkent 100011
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center justify-content-center header-items-item">
+                                <div>
+                                    <i class="fa-solid fa-phone-volume fa-2xl"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Biz bilan aloqa</p>
+                                    <p class="m-0" style="font-size: 12px">+998 71 241 02 75</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center justify-content-center header-items-item border-0">
+                                <div>
+                                    <i class="fa-solid fa-envelope" style="font-size: 40px"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Bizga xabar yuborish</p>
+                                    <p class="m-0" style="font-size: 12px">
+                                        Contact@HydraVTech.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+
+                <div class="carousel-item">
+                    <header>
+                        <img width="600" src="./img/title1.png" class="header-title1  position-absolute" />
+                        <img style="top: -150px; left: -100px;" width="1500" class="position-absolute"
+                            src="./img/bg.png" alt="">
+                        <img width="330" src="./img/title2.png" class="header-title2  position-absolute" />
+                        <img class="position-absolute header-img6" src="./img/image 20.png" width="500" alt="" />
+                        <img class="header-bg" width="1100" src="./img/Ellipse 4 (1).png" alt="" />
+                        <p class="d-flex align-items-center fst-italic header-desc header-desc1">
+                            <i class="fa-solid fa-circle golden-color" style="font-size: 7px"></i>&nbsp; Sadriddin Ayniy
+                        </p>
+                        <p class="d-flex align-items-center fst-italic header-desc header-desc2">
+                            <i class="fa-solid fa-circle golden-color" style="font-size: 7px"></i>
+                            &nbsp; Adabiyot muzeyi -O‘zbekistonning <br />&nbsp; eng yirik
+                            ilmiy va ta’lim <br />&nbsp; muassasalaridan biri
+                        </p>
+                        <div class="header-box">
+                            <p class="h5">
+                                O’zbekiston bo’ylab adabiy Gid <br />
+                                <span class="golden-color"> elektron platformasi </span>
+                            </p>
+                            <br />
+                            <a href="#vr"
+                                class="d-flex align-items-center justify-content-center header-link link-light">
+                                <p class="h5 m-0 me-2">Batafsil malumot</p>
+                            </a>
+                        </div>
+
+                        <div class="position-absolute container d-flex justify-content-around header-items p-1">
+                            <div class="d-flex align-items-center justify-content-center header-items-item">
+                                <div>
+                                    <i class="fa-solid fa-location-dot fa-2xl"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Bizning manzil</p>
+                                    <p class="m-0" style="font-size: 12px">
+                                        69 Navoiy shoh ko'chasi, Тоshkent 100011
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center justify-content-center header-items-item">
+                                <div>
+                                    <i class="fa-solid fa-phone-volume fa-2xl"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Biz bilan aloqa</p>
+                                    <p class="m-0" style="font-size: 12px">+998 71 241 02 75</p>
+                                </div>
+                            </div>
+
+                            <div class="d-flex align-items-center justify-content-center header-items-item border-0">
+                                <div>
+                                    <i class="fa-solid fa-envelope" style="font-size: 40px"></i>
+                                </div>
+                                <div class="mx-4">
+                                    <p class="m-0 h5 fw-bold">Bizga xabar yuborish</p>
+                                    <p class="m-0" style="font-size: 12px">
+                                        Contact@HydraVTech.com
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="prev">
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching"
+                    data-bs-slide="next">
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="hero py-5">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center pb-2 mb-5 border-bottom">
+                <p class="h1 fonts golden-color fw-bold">Yangiliklar</p>
+                <a href="./yangiliklar.html" class="link-light border h5 p-3">Barchasini ko’rish</a>
+            </div>
+            <div class="d-flex justify-content-between">
+                <a class="link-light" href="./yangiliklar.html">
+                    <div class="col-4 col-sm-12 hero-box border-bottom">
+                        <img src="./img/Rectangle 1.png" width="360" alt="" />
+                        <p class="hero-desc h5 py-2">
+                            Вручение сертификатов выпускникам курса
+                        </p>
+                        <p class="hero-desc h6" style="color: #c6c2c2">
+                            Сегодня 3 декабря 2020 года в Академии цифровых инноваций
+                            состоялось вручение сертификатов
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p style="font-size: 18px; color: #ffffffc0; cursor: pointer;">
+                                6-Noyabr, 2023 &nbsp;&nbsp; |&nbsp;&nbsp; 14:35
+                            </p>
+
+
+                            <p class="hero-link p-2 px-3" style="background: rgba(217, 217, 217, 0.13)">↗</p>
+
+
+                        </div>
+                    </div>
+                </a>
+
+                <a class="link-light" href="./yangiliklar.html">
+                    <div class="col-4 col-sm-12 hero-box border-bottom">
+                        <img src="./img/Rectangle 1.png" width="360" alt="" />
+                        <p class="hero-desc h5 py-2">
+                            Вручение сертификатов выпускникам курса
+                        </p>
+                        <p class="hero-desc h6" style="color: #c6c2c2">
+                            Сегодня 3 декабря 2020 года в Академии цифровых инноваций
+                            состоялось вручение сертификатов
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p style="font-size: 18px; color: #ffffffc0; cursor: pointer;">
+                                6-Noyabr, 2023 &nbsp;&nbsp; |&nbsp;&nbsp; 14:35
+                            </p>
+
+
+                            <p class="hero-link p-2 px-3" style="background: rgba(217, 217, 217, 0.13)">↗</p>
+
+
+                        </div>
+                    </div>
+                </a>
+
+                <a class="link-light" href="./yangiliklar.html">
+                    <div class="col-4 col-sm-12 hero-box border-bottom">
+                        <img src="./img/Rectangle 1.png" width="360" alt="" />
+                        <p class="hero-desc h5 py-2">
+                            Вручение сертификатов выпускникам курса
+                        </p>
+                        <p class="hero-desc h6" style="color: #c6c2c2">
+                            Сегодня 3 декабря 2020 года в Академии цифровых инноваций
+                            состоялось вручение сертификатов
+                        </p>
+
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p style="font-size: 18px; color: #ffffffc0; cursor: pointer;">
+                                6-Noyabr, 2023 &nbsp;&nbsp; |&nbsp;&nbsp; 14:35
+                            </p>
+
+
+                            <p class="hero-link p-2 px-3" style="background: rgba(217, 217, 217, 0.13)">↗</p>
+
+
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="main py-5">
+        <div class="container">
+            <div id="adiblar">
+                <p class="fonts h1">
+                    <span class="golden-color" style="border-bottom: 1px solid #dfba63; padding-bottom: 5px">Sergey
+                        Borodin</span>
+                    uy muzeyi
+                </p>
+                <img width="1400" class="bg-img" src="./img/bg.png" alt="">
+
+                <div class="row d-block d-md-flex justify-content-between align-items-center pt-5">
+                    <div class="col-md-6 col-12">
+                        <p class="h6" style="font-weight: 400; line-height: 30px">
+                            Sergey Borodin uy-muzeyi 1981-yilda tashkil etilgan. Ushbu muzey XX asr oʻrtalarida yashagan
+                            va 1950-1974-yillarda bir qator yirik tarixiy prozaik janrlar muallifi rus yozuvchisi Sergey
+                            Borodin xotirasiga bagʻishlangan. <br><br>
+
+                            Muzey adabiy ekspozitsiyasining ikkita zali adib hayoti va ijodiy faoliyatining asosiy
+                            bosqichlarini oʻz ichiga oladi. Birinchi xonada Sergey Borodinning bolalik va yoshlik
+                            haqidagi xotiralar mavjud. Rasmlar, xatlar, hujjatlardan anglash mumkinki, bu boʻlajak
+                            yozuvchining qiziqishlari erta shakllanganidan dalolat beradi. <br><br>
+
+                            Ikkinchi zalda Sergey Borodinning 1930-yillardagi hayotining soʻnggi kunlarigacha boʻlgan
+                            faoliyati haqida hikoya qiluvchi ekspozitsiya nazardan chetda qolmaydi. </p>
+                    </div>
+
+                    <div class="col-md-6 col-12">
+                        <img class="adiblar-img" src="./img/Sergey.png" alt="" />
+                    </div>
+                </div>
+            </div>
+            <div class="d-none d-md-block"
+                style="width: 900px; margin-top: 50px; border: 1px solid rgba(255, 255, 255, 0.164);"></div>
+
+            <div id="vr" class="vr mt-5">
+                <p class="fonts h2">
+                    <span class="golden-color" style="border-bottom: 1px solid #dfba63; padding-bottom: 5px">Sergey
+                        Borodin</span>
+                    VR turi
+                </p>
+                <br /><br /><iframe width='100%' height='780' src='https://my.matterport.com/show/?m=NXgkP9zSR7U'
+                    frameborder='0' allowfullscreen allow='xr-spatial-tracking'></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero py-5">
+        <div class="container">
+            <p class="fonts h2 fw-bold" style="
+            border-bottom: 1px solid #dfba63;
+            padding-bottom: 5px;
+            width: 230px;
+          ">
+                Muzey <span class="golden-color"> xaritasi</span>
+            </p>
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="my-5" style="width: 450px">
+                    <p class="my-2 h5 fw-light">Ochiq</p>
+                    <p class="my-2 h5 fw-light" style="color: rgba(238, 238, 238, 0.728)">
+                        Dushanba - Shanba 8:00 - 18:00
+                    </p>
+                    <p class="my-2 h5 fw-light" style="color: rgba(238, 238, 238, 0.728)">
+                        Yakshanba 8:00 - 19:00
+                    </p>
+
+                    <p class="fonts h2 fw-bold mt-5">Chipta narxlari</p>
+                    <br />
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <p class="h5">Turistlar</p>
+                            <p style="font-size: 13px">
+                                Bilet - <span class="golden-color">50.000 so'm</span>
+                            </p>
+
+                            <p class="m-0">Talabalar va bolalar</p>
+                            <p style="font-size: 13px">
+                                Bilet - <span class="golden-color">20.000 so'm</span>
+                            </p>
+                        </div>
+
+                        <div style="width: 200px">
+                            <p>Discount</p>
+                            <p style="font-size: 13px">
+                                5% for 10 < 50 people in Group 10% for 50 < 100 people in Group 15% for> 100 people in
+                                    Group
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2996.4181291168775!2d69.29197657656371!3d41.32152030007752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38aef4ce632e6e77%3A0xd7645790c96b5c6c!2z0JTQvtC8LdC80YPQt9C10Lkg0KHQtdGA0LPQtdGPINCR0L7RgNC-0LTQuNC90LA!5e0!3m2!1sru!2s!4v1706287121169!5m2!1sru!2s"
+                        width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="aloqa" class="main">
+        <div class="container py-5">
+            <p class="fonts h3 fw-bold" style="border-bottom: 1px solid #dfba63; width: 210px">
+                Biz bilan aloqa
+            </p>
+
+            <div class="d-flex justify-content-between align-items-center mt-5">
+                <div style="width: 20%">
+                    <p style="font-size: 12px; color: rgba(156, 156, 156, 0.714)">
+                        Amir Temur 108, TATU universiteti
+                        <br />
+                        MT kafedrasi
+                    </p>
+                </div>
+                <div class="border-end text-center" style="width: 15%">
+                    <p style="font-size: 12px; color: rgba(156, 156, 156, 0.714)">
+                        +998 71 2386599
+                    </p>
+                    <p style="font-size: 12px; color: rgba(156, 156, 156, 0.714)">
+                        info@tuit.com
+                    </p>
+                </div>
+                <div style="width: 25%" class="d-flex justify-content-evenly border-end">
+                    <div>
+                        <a class="link-light" href="index.html">Bosh sahifa</a><br><br>
+                        <a class="link-light" href="#navbar">Adiblar</a>
+                    </div>
+                    <div>
+                        <a class="link-light" href="#vr">VR tur</a><br><br>
+                        <a class="link-light" href="#">Aloqa</a>
+                    </div>
+                </div>
+                <div style="width: 15%" class="text-center">
+                    <div>
+                        <a href="#" class="link-light"><i class="fa-brands fa-facebook fa-lg mx-2"></i></a>
+                        <a href="#" class="link-light"><i class="fa-brands fa-instagram fa-xl mx-2"></i></a>
+                    </div>
+                    <div class="mt-4">
+                        <a href="#" class="link-light"><i class="fa-brands fa-twitter fa-lg mx-2"></i></a>
+                        <a href="#" class="link-light"><i class="fa-brands fa-youtube fa-lg mx-2"></i></a>
+                    </div>
+                </div>
+                <div style="width: 25%">
+                    <p class="nav-title fonts h2 fw-light float-end">AdabiyGid</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
